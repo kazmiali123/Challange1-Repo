@@ -1,0 +1,155 @@
+/* globally set properties */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* page background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* header theme */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* header title properties */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* header title color change */
+.seo {
+    color: #d9dcd6;
+}
+
+/* header nav bar theme and positioning */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* nav bar list icons disable */
+.nav-resources {
+    list-style-type: none;
+}
+
+/* nav bar info orientation */
+.nav-resources li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* hyperlink decoration disable */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* paragraph info font size */
+p {
+    font-size: 16px;
+}
+
+/* full-image banner below the header; properties */
+.page-top {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* main info area size relavtive to total page */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* main info boxes' properties */
+main article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* main info boxes; image size */
+main article img {
+    max-height: 200px;
+}
+
+/* main info boxes; heading properties */
+main article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* main info, box 1 & 3, image position */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* main info, box 2, image position */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* side bar box properties */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* side bar  bottom margin*/
+aside article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* side bar headings' properties */
+aside article h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* side bar image icon peoperties */
+aside article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* footer box properties and positioning*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* footer title size */
+footer h2 {
+    font-size: 20px;
+}
