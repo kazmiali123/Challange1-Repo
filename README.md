@@ -1,2 +1,2 @@
-# Challange1-Repo
-Challange 1 Repository
+# Challange1-Project
+Horiseon Company Website
